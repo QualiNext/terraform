@@ -34,6 +34,12 @@ variable "SANDBOX_ID" {
 variable "SANDBOX_ID_OLD" {
 }
 
+variable "SOURCE_BRANCH" {
+}
+
+variable "SOURCE_COMMIT" {
+}
+
 variable "OUTPUTS" {
 }
 
