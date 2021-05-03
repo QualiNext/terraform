@@ -19,10 +19,6 @@ variable "SERVER_NAME" {
 variable "SERVER_VERSION" {
 }
 
-# obsolete - replaced by OUTPUTS_PUBLISHER_STR_OLD
-variable "OUTPUT_PUBLISHER_STR" {
-}
-
 variable "OUTPUTS_PUBLISHER_STR_OLD" {
 }
 
