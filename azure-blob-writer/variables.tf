@@ -47,6 +47,9 @@ variable "PUBLIC_ADDRESS" {
 variable "PUBLIC_ADDRESS_OLD" {
 }
 
+variable "SANDBOX_ID_NEW" {
+}
+
 variable "SANDBOX_ID" {
 }
 
