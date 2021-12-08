@@ -11,7 +11,7 @@ variable "admin_username" {
 variable "admin_password" {
   default     = "admin"
   description = "RabbitMQ password"
-  sensitive = true
+  sensitive   = true
 }
 
 variable "username" {
@@ -22,7 +22,7 @@ variable "username" {
 variable "password" {
   default     = "colony"
   description = "RabbitMQ password"
-  sensitive = true
+  sensitive   = true
 }
 
 variable "vhost" {
