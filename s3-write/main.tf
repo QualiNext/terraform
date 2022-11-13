@@ -6,6 +6,8 @@ locals {
   common_tags = {
     creator        = "terraform"
   }
+  
+  initiator = "probably torque"
 }
 
 resource "aws_s3_bucket_object" "object" {
@@ -17,7 +19,7 @@ resource "aws_s3_bucket_object" "object" {
     local.common_tags,
     {
       custom_tag_1 = "val1"
-      "custom_tag_2" = "val2"
+      "custom-tag-2" = local.initiator
     }
   )
 }
