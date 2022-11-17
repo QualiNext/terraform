@@ -21,7 +21,6 @@ EOF
   tags = merge(
     local.common_tags,
     {
-      custom_tag_1 = "val1"
       "custom-tag-2" = local.initiator
     }
   )
