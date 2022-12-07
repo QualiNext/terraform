@@ -21,7 +21,7 @@ EOF
   tags = merge(
     local.common_tags,
     {
-      "custom-tag-2" = var.CONTENT != null ? local.initiator : "empty content"
+      "custom-tag-2" = local.initiator
     }
   )
 }
